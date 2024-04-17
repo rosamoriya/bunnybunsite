@@ -1,0 +1,157 @@
+/* base.css */
+
+/* Import Montserrat font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* Import Playpen Sans font */
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap");
+
+/* Define font families */
+:root {
+  --font-family-montserrat: "Montserrat", sans-serif;
+  --font-family-playpen-sans: "Playpen Sans", cursive;
+}
+
+/* Apply font families */
+body {
+  font-family: var(--font-family-montserrat);
+  color: #93613c;
+  background-color: #fff6ee;
+}
+
+.h1-home {
+  font-family: var(--font-family-playpen-sans);
+  font-size: 64px;
+  font-weight: 700;
+  color: #a5dab8;
+}
+
+h1 {
+  font-family: var(--font-family-playpen-sans);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: var(--font-family-playpen-sans);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Links */
+
+a {
+  color: #93613c;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+
+.primary-button {
+  display: inline-block;
+  padding: 12px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #93613c;
+  border: 3px solid #93613c;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.primary-button:hover {
+  background-color: #93613c;
+  color: #fff6ee;
+  text-decoration: none;
+}
+
+/* Form elements */
+
+/* Inputs from Newsletter */
+
+.form-group label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"] {
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  height: 48px;
+}
+
+/* Dropdowns for Reservation */
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Styles for form elements */
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+select,
+input[type="date"],
+input[type="time"] {
+  width: 100%;
+  font-family: var(--font-family-montserrat);
+  font-weight: 700;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  color: #93613c;
+  padding: 8px;
+  background-color: #fff6ee;
+  border: 2px solid #93613c;
+  border-radius: 12px;
+}
+
+select {
+  background-image: url("../images/Reserve/Chevron-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px;
+  -webkit-appearance: none; /* Hide the default dropdown arrow in WebKit browsers */
+}

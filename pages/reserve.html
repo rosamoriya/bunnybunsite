@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESERVE</title>
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/breakpoints.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-left">
+          <a href="home.html"
+            ><img src="../images/Home/Logo.png" alt="Bunny-Logo"
+          /></a>
+        </div>
+        <div class="header-right">
+          <nav class="header-links-container">
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="reserve.html" class="special-link">Reserve</a>
+          </nav>
+          <div class="hamburger-menu">
+            <img
+              class="hamburger-icon"
+              src="../images/Home/hamburger.png"
+              alt="hamburger-icon"
+            />
+          </div>
+        </div>
+        <div class="sidebar">
+          <nav class="sidebar-links">
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="reserve.html" class="special-link">Reserve</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>RESERVE</h1>
+        </div>
+        <img src="../images/Reserve/Hero.png" alt="Hero Image" />
+      </section>
+
+      <section class="reservation">
+        <div class="reservation-container">
+          <img src="../images/Reserve/Smoke.png" alt="Smoke-Icon" />
+          <h2>We love serving fresh Dim Sum</h2>
+          <p>
+            We believe that Dim Sum is more enjoyable when you eat it right out
+            of the steamer. This is why we encourage our clients to come
+            in-person to be delighted by our dishes.
+          </p>
+        </div>
+        <form>
+          <label for="numPeople">Number of People:</label>
+          <select id="numPeople" name="numPeople">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="5">6+</option>
+          </select>
+
+          <label for="reservationDate">Date:</label>
+          <input type="date" id="reservationDate" name="reservationDate" />
+
+          <label for="reservationTime">Time:</label>
+          <input type="time" id="reservationTime" name="reservationTime" />
+
+          <button type="submit" class="primary-button">Find a Table</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img src="../images/Home/BrownLogo.png" alt="Footer Logo" />
+        </div>
+        <div class="footer-right">
+          <div class="footer-links-container">
+            <a href="#">Careers</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>

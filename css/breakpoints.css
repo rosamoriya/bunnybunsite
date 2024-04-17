@@ -1,0 +1,324 @@
+/* breakpoints.css */
+
+/* MOBILE 480px and less) */
+
+@media only screen and (max-width: 480px) {
+  /** DEFAULTS BASE **/
+
+  /* Apply font families */
+
+  .h1-home {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /** DEFAULTS LAYOUT **/
+
+  /* Header*/
+
+  header .header-container {
+    margin: 0 16px;
+  }
+
+  header .header-left img {
+    width: 108px;
+    height: auto;
+  }
+  header .header-links-container {
+    display: none;
+  }
+
+  header .hamburger-menu {
+    display: block;
+    padding-right: 16px;
+  }
+
+  /* Hero */
+
+  .hero-text {
+    top: 70%;
+  }
+  .hero img {
+    width: calc(100% - 32px);
+  }
+
+  /* Footer */
+
+  footer {
+    display: none;
+  }
+
+  /** HOME **/
+
+  /* About section*/
+
+  .about h1,
+  h2 {
+    padding: 0 16px;
+  }
+  .about-container {
+    flex-direction: column;
+    padding: 0 16px;
+  }
+
+  /* Location section*/
+
+  .location-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+  }
+
+  .location-details {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .location-image img {
+    width: 100%;
+  }
+
+  /* Gallery section*/
+
+  .gallery-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 16px;
+  }
+
+  .gallery-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Newsletter section*/
+
+  .newsletter-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+  }
+
+  .newsletter-left {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .newsletter-right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .newsletter-right form {
+    margin: 0;
+    width: 100%;
+  }
+
+  /** MENU **/
+
+  /* Sticky mini navbar section */
+
+  .food {
+    display: none;
+  }
+
+  /* Menu section */
+
+  .menu {
+    margin: 60px 16px;
+  }
+  .menu .table-container {
+    overflow-x: auto;
+  }
+
+  /** ABOUT **/
+
+  /* About section */
+
+  .origin-container {
+    max-width: 292px;
+    margin: 60px 16px;
+  }
+
+  .purpose-container {
+    flex-direction: column;
+  }
+}
+
+/* TABLET 481-768px */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /**DEFAULTS BASE **/
+
+  /* Apply font families */
+
+  .h1-home {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  /** DEFAULTS LAYOUT **/
+
+  /* Header*/
+
+  header .header-container {
+    margin: 0 32px;
+  }
+
+  header .header-left img {
+    width: 138px;
+    height: auto;
+  }
+
+  header .header-links-container {
+    display: none;
+  }
+
+  header .hamburger-menu {
+    display: block;
+    padding-right: 16px;
+  }
+
+  /* Hero */
+
+  .hero-text {
+    top: 68%;
+  }
+  .hero img {
+    width: calc(100% - 64px);
+  }
+
+  /* Footer */
+
+  footer {
+    display: none;
+  }
+
+  /** HOME **/
+
+  /* About section*/
+
+  .about h1,
+  h2 {
+    padding: 0 32px;
+  }
+  .about-container {
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .about-item {
+    width: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  /* Location section */
+
+  .location-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px;
+  }
+
+  .location-details {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .location-image img {
+    width: 100%;
+  }
+
+  /* Gallery section*/
+
+  .gallery-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 32px;
+  }
+
+  .gallery-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Newsletter section*/
+
+  .newsletter-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+  }
+
+  .newsletter-left {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .newsletter-right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .newsletter-right form {
+    margin: 0;
+    width: 100%;
+  }
+
+  /** MENU **/
+
+  /* Sticky mini navbar section */
+
+  .food {
+    display: none;
+  }
+
+  /* Menu section */
+
+  .menu {
+    margin: 60px 32px;
+  }
+  .menu .table-container {
+    overflow-x: auto;
+  }
+
+  /** ABOUT **/
+
+  /* About section */
+
+  .origin-container {
+    max-width: 292px;
+    margin: 60px 16px;
+  }
+
+  .purpose-container {
+    flex-direction: column;
+  }
+
+  /** RESERVE **/
+
+  /* Reservation section */
+
+  .reservation {
+    margin: 60px 32px;
+    padding: 0;
+  }
+}
